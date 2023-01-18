@@ -94,7 +94,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
                 <executions>
@@ -117,15 +117,13 @@
                         <includeOnlyProperty>^git.dirty$</includeOnlyProperty>
                         <includeOnlyProperty>^git.remote.origin.url$</includeOnlyProperty>
                         <includeOnlyProperty>^git.commit.id.(abbrev|full|describe|describe-short)$</includeOnlyProperty>
-                        <includeOnlyProperty>^git.commit.(user.name|user.email|message.full|message.short|time)$
-                        </includeOnlyProperty>
+                        <includeOnlyProperty>^git.commit.(user.name|user.email|message.full|message.short|time)$</includeOnlyProperty>
                         <includeOnlyProperty>^git.closest.tag.(name|commit.count)$</includeOnlyProperty>
-                        <includeOnlyProperty>^git.build.(user.name|user.email|time|host|version|number|number.unique)$
-                        </includeOnlyProperty>
+                        <includeOnlyProperty>^git.build.(user.name|user.email|time|host|version|number|number.unique)$</includeOnlyProperty>
                     </includeOnlyProperties>
                     <commitIdGenerationMode>full</commitIdGenerationMode>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 
